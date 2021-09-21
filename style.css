@@ -26,4 +26,6 @@ li a {
 
 #index1 {
     background-image: url("img5.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
