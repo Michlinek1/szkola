@@ -24,6 +24,6 @@ li a {
     font-weight: bold;
 }
 
-body {
-    background-image:"img5.jpg";
+#index1 {
+    background-image: url("img5.jpg");
 }
