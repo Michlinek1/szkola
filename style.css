@@ -36,4 +36,10 @@ table, th, td {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
+    height: 100px;
+    width: 200px;
   }
+
+#tr1 {
+    background-color: aqua;
+}
