@@ -1,0 +1,61 @@
+#img {
+    text-align: center;
+}
+
+#nav li, .ukryj li {
+    padding:15px;
+    display:inline-block;
+    font-size:25px;
+    text-align:center;
+}
+
+#nav {
+    background-color:darkviolet ;
+    list-style-type: none;
+    border-radius: 4px;
+    position: sticky;
+    text-align: center;
+}
+
+li a {
+    text-decoration:none;
+    color:black;
+    font-family:'calibri';
+    font-weight: bold;
+}
+
+#index1 {
+    background-image: url("img5.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+#tr1 {
+    background-color: aqua;
+}
+
+#index6 {
+    text-decoration: none;
+    color:blue;
+    font-weight: normal;
+    font-size: 22pt;
+}
+
+#bgimg {
+    background-image: url("img5.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+table {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#t{
+    margin-left: auto;
+    margin-right: auto;
+}
