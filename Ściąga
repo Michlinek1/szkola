@@ -1,35 +1,35 @@
-<table border="1">
+<IDOCTYPE html> <html>
 
-<tr>
+<head>
 
-<td>A1</td>
+<meta charset="utf-8"> </head>
 
-<td>A2</td>
+<body>
 
-<td rowspan="3">A3 + B3 + C3</td>
+<form action="mailto:wspis@wsip.pl"> Imię:
 
-<td colspan="3">A4+A5+A6</td> </tr>
+<br><input type="text" name="inie"> <br>Nazwisko:
 
-<tr>
+<br><input type="text" name="nazwisko">
 
-<td rowspan="2">B1+ C1</td>
+<br>Pžeć
 
-<td>B2</td>
+<br><input type="radio" name="plec">Kobieta <input type="radio" name="plec">Mężczyzna
 
-<td>B4</td> <td>B5</td>
+<br>Wiek <br><select name="wiek">
 
-<td>B6</td>
+(option>0-17</option>
 
-</tr>
+<option 18-40</option>
 
-<tr>
+<option>41-60</option>
 
-<td>C2</td>
+</select>
 
-<td colspan="2">C4+C5</td>
+<br>Uwagi: <br><textarea rows="6" cols="17">wpisz uwagi
 
-<td>C6</td>
+</textarea>
 
-</tr>
+<br><input type="submit" value="Wyślij"> </form>
 
-</table>
+</body> </html>
