@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="proj4.css" rel="stylesheet">
+</head>
+
+<body>
+7.14
+<form method="post" enctype="text/plain" action=""> Wybierz język:
+
+<select name="jezyki" multiple="multiple"> <option value="angielski">J.angielski</option>
+
+<option value="niemiecki">J.niemiecki</option> <option value="francuski">J.francuski</option>
+
+<option value="hiszpanski">J.hiszpański</option>
+
+<option value="rosyjski">J.rosyjski</option>
+
+</select> </form>
+
+
+7.15
+
+<form method="post" enctype="text/plain"
+
+action="">
+
+<select name="klasa" size="8">
+
+<optgroup label="Dziewczęta"> <option value="pozycja_1">12-14 lat</option>
+
+<option value="pozycja_2">15-17 lat</option> <option value="pozycja_3">powyżej 18
+
+lat</option>
+
+</optgroup>
+
+<optgroup label="Chłopcy"> <option value="pozycja_4">12-14 lat</option>
+
+<option value="pozycja_5">15-17 lat</option>
+
+<option value="pozycja_6">powyżej 18
+
+lat</option>
+
+</optgroup>
+
+</select>
+
+</form>
+
+7.16
+
+<form method="POST">
+
+<label>E-mail: <input type=email
+
+placeholder="Wpisz adres e-mail"> </label><br>
+
+<label>Szukaj <input type="search" placeholder="Wpisz szukany tekst"></label><br> <label>Wybierz wartośc od 1 do 5<input type="range" name="" min="1" max="5" value="1"
+
+/><br>
+
+lub<br> <input type="number" name="quantity" min="1"
+
+max="5"></label><br>
+
+<label>Wybierz kolor<input type="color"> </label><br>
+
+<label>Wprowadź datę urodzin<input type="date" max="2015-01-01"></label><br>
+
+</form>
+
+7.17<br>
+
+Formularz rejestracyjny:
+
+<form method="post" type="text/plain" action="index.php">
+
+<table>
+<tr>
+
+<td>Podaj imię:</td><td><input type="text" placeholder="Jan" required></td>
+
+<tr><td>Podaj nazwisko</td><td><input type="text" name="nazwisko" placeholder="Kowalski" required></td></tr> <tr><td>Nr telefonu</td><td><input type="tel" pattern="^\d{3}-\d{3}-\d{3}$" placeholder="000-000-800"></td>
+
+<tr><td>Podaj login</td><td><input type="text" name="login" required></td></tr>
+
+<tr><td>Podaj hasło:</td><td><input type="password" name="haslo" required></td></tr>
+
+<tr><td><input type="reset" value="Wyczyść dane"></td>
+
+<td><input type="submit" value="Wyślij dane"></td>
+
+</tr>
+
+</table>
+
+</form>
+
+<br>
+<br>
+7.18
+
+<form method="post" enctype="text/plain" action="index.php">
+Wybierz owoc:
+
+<input type="text" name="przedmiot" value="" list="owoce">
+
+<datalist id="owoce">
+
+<option value="Ananas">Ananas</option>
+
+<option value="Gruszka">Gruszka</option>
+
+<option value="Jabłko">Jabłko </option>
+
+<option value="Winogrono">Winogrono</option>
+
+<option value="Banan">Banan</option>
+
+</datalist>
+
+</form>
+<br>
+<br>
+7.19
+<br>
+
+
+<form method="post" enctype="text/plain" action="index.php">
+<fieldset style="width: 300px;">
+<legend align="center">Formularz logowania </legend>
+
+<table><tr><td>Podaj login: </td><td><input type="text"></td></tr> <tr><td>Podaj hasło: </td><td><input type="password"></td></tr> <tr><td><input type="submit" value="Zaloguj"></td></tr>
+
+</table>
+
+</fieldset>
+
+</form>
+</body>
+</html>
