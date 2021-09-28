@@ -1,10 +1,10 @@
 
 7.14
-<form method="post" enctype="text/plain" action=" Wybierz język:
+<form method="post" enctype="text/plain" action=""> Wybierz język:
 
 <select name="jezyki" multiple="multiple"> <option value="angielski">J.angielski</option>
 
-<option value="niemiecki">].niemiecki</option> <option value="francuski">J.francuski</option>
+<option value="niemiecki">J.niemiecki</option> <option value="francuski">J.francuski</option>
 
 <option value="hiszpanski">J.hiszpański</option>
 
@@ -67,27 +67,22 @@ max="5"></label><br>
 
 </form>
 
-7.17
+7.17<br>
 
 Formularz rejestracyjny:
 
-<form method="post" type="text/plain" actions"index.php">
+<form method="post" type="text/plain" action="index.php">
 
 <table>
+<tr>
 
-<td>Podaj imię:</td><td><input type="text" minie"
+<td>Podaj imię:</td><td><input type="text" placeholder="Jan" required></td>
 
-placeholder="Jan" required></td>
+<tr><td>Podaj nazwisko</td><td><input type="text" name="nazwisko" placeholder="Kowalski" required></td></tr> <tr><td>Nr telefonu</td><td><input type="tel" pattern="^\d{3}-\d{3}-\d{3}$" placeholder="000-000-800"></td>
 
-<tr><td>Podaj nazwisko</td><td><input type="text" name="nazwisko placeholder="Kowalski" required></td></tr> <tr><td>Nr telefonu</td><td><input type="tel" pattern="^\d{3}
+<tr><td>Podaj login</td><td><input type="text" name="login" required></td></tr>
 
-\d{3}-\d(3)$" placeholder="000-000-800"></td>
-
-<tr><td>Podaj login</td><td><input type="text" name="login"
-
-required></td>
-
-<tr><td>Podaj hasło:</td><td><input type="password" name="haslo" required></td>
+<tr><td>Podaj hasło:</td><td><input type="password" name="haslo" required></td></tr>
 
 <tr><td><input type="reset" value="Wyczyść dane"></td>
 
@@ -102,11 +97,10 @@ required></td>
 
 7.18
 
-<form method="post" enctype="text/plain"
+<form method="post" enctype="text/plain" action="index.php">
+Wybierz owoc:
 
-action="index.php"> Wybierz owoc:
-
-<input type="text" name="przedmiot" value=**
+<input type="text" name="przedmiot" value="" list="owoce">
 
 <datalist id="owoce">
 
@@ -127,7 +121,9 @@ action="index.php"> Wybierz owoc:
 7.19
 
 
-<form method="post" enctype="text/plain" action="index.php"> <fieldset style="width: 300px;"><legend align="center">Formularz logowania </legend>
+<form method="post" enctype="text/plain" action="index.php">
+<fieldset style="width: 300px;">
+<legend align="center">Formularz logowania </legend>
 
 <table><tr><td>Podaj login: </td><td><input type="text"></td></tr> <tr><td>Podaj hasło: </td><td><input type="password"></td></tr> <tr><td><input type="submit" value="Zaloguj"></td></tr>
 
@@ -136,5 +132,4 @@ action="index.php"> Wybierz owoc:
 </fieldset>
 
 </form>
-
 
