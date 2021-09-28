@@ -54,3 +54,8 @@ li a {
     margin-left: auto;
     margin-right: auto;
 }
+
+#table1{
+    border: 3px solid black;
+
+}
