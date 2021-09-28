@@ -1,35 +1,135 @@
-<IDOCTYPE html> <html>
 
-<head>
+7.14
+<form method="post" enctype="text/plain" action=""> Wybierz język:
 
-<meta charset="utf-8"> </head>
+<select name="jezyki" multiple="multiple"> <option value="angielski">J.angielski</option>
 
-<body>
+<option value="niemiecki">J.niemiecki</option> <option value="francuski">J.francuski</option>
 
-<form action="mailto:wspis@wsip.pl"> Imię:
+<option value="hiszpanski">J.hiszpański</option>
 
-<br><input type="text" name="inie"> <br>Nazwisko:
+<option value="rosyjski">J.rosyjski</option>
 
-<br><input type="text" name="nazwisko">
+</select> </form>
 
-<br>Pžeć
 
-<br><input type="radio" name="plec">Kobieta <input type="radio" name="plec">Mężczyzna
+7.15
 
-<br>Wiek <br><select name="wiek">
+<form method="post" enctype="text/plain"
 
-(option>0-17</option>
+action="">
 
-<option 18-40</option>
+<select name="klasa" size="8">
 
-<option>41-60</option>
+<optgroup label="Dziewczęta"> <option value="pozycja_1">12-14 lat</option>
+
+<option value="pozycja_2">15-17 lat</option> <option value="pozycja_3">powyżej 18
+
+lat</option>
+
+</optgroup>
+
+<optgroup label="Chłopcy"> <option value="pozycja_4">12-14 lat</option>
+
+<option value="pozycja_5">15-17 lat</option>
+
+<option value="pozycja_6">powyżej 18
+
+lat</option>
+
+</optgroup>
 
 </select>
 
-<br>Uwagi: <br><textarea rows="6" cols="17">wpisz uwagi
+</form>
 
-</textarea>
+7.16
 
-<br><input type="submit" value="Wyślij"> </form>
+<form method="POST">
 
-</body> </html>
+<label>E-mail: <input type=email
+
+placeholder="Wpisz adres e-mail"> </label><br>
+
+<label>Szukaj <input type="search" placeholder="Wpisz szukany tekst"></label><br> <label>Wybierz wartośc od 1 do 5<input type="range" name="
+
+="" min="1" max="5" value="1"
+
+/><br>
+
+lub<br> <input type="number" name="quantity" min="1"
+
+max="5"></label><br>
+
+<label>Wybierz kolor<input type="color"> </label><br>
+
+<label>Wprowadź datę urodzin<input type="date" max="2015-01-01"></label><br>
+
+</form>
+
+7.17<br>
+
+Formularz rejestracyjny:
+
+<form method="post" type="text/plain" action="index.php">
+
+<table>
+<tr>
+
+<td>Podaj imię:</td><td><input type="text" placeholder="Jan" required></td>
+
+<tr><td>Podaj nazwisko</td><td><input type="text" name="nazwisko" placeholder="Kowalski" required></td></tr> <tr><td>Nr telefonu</td><td><input type="tel" pattern="^\d{3}-\d{3}-\d{3}$" placeholder="000-000-800"></td>
+
+<tr><td>Podaj login</td><td><input type="text" name="login" required></td></tr>
+
+<tr><td>Podaj hasło:</td><td><input type="password" name="haslo" required></td></tr>
+
+<tr><td><input type="reset" value="Wyczyść dane"></td>
+
+<td><input type="submit" value="Wyślij dane"></td>
+
+</tr>
+
+</table>
+
+</form>
+
+
+7.18
+
+<form method="post" enctype="text/plain" action="index.php">
+Wybierz owoc:
+
+<input type="text" name="przedmiot" value="" list="owoce">
+
+<datalist id="owoce">
+
+<option value="Ananas">Ananas</option>
+
+<option value="Gruszka">Gruszka</option>
+
+<option value="Jabłko">Jabłko </option>
+
+<option value="Winogrono">Winogrono</option>
+
+<option value="Banan">Banan</option>
+
+</datalist>
+
+</form>
+
+7.19
+
+
+<form method="post" enctype="text/plain" action="index.php">
+<fieldset style="width: 300px;">
+<legend align="center">Formularz logowania </legend>
+
+<table><tr><td>Podaj login: </td><td><input type="text"></td></tr> <tr><td>Podaj hasło: </td><td><input type="password"></td></tr> <tr><td><input type="submit" value="Zaloguj"></td></tr>
+
+</table>
+
+</fieldset>
+
+</form>
+
