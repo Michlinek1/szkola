@@ -1,0 +1,23 @@
+td {
+    text-align: center;
+}
+
+table {
+    width: 800px;
+    border:2px gray;
+    border-collapse: collapse;
+}
+
+#r {
+    background-color: orange;
+    color: white;
+}
+
+#ro {
+    background-color: rgb(248, 193, 91);
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
