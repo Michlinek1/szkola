@@ -1,0 +1,49 @@
+#img {
+    text-align: center;
+}
+
+#nav li, .ukryj li {
+    padding:15px;
+    display:inline-block;
+    font-size:25px;
+    text-align:center;
+}
+
+#nav {
+    background-color:darkviolet ;
+    list-style-type: none;
+    border-radius: 4px;
+    position: sticky;
+    text-align: center;
+}
+
+li a {
+    text-decoration:none;
+    color:black;
+    font-family:'calibri';
+    font-weight: bold;
+}
+
+
+#bgimg {
+    background-color: white;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.tabelka {
+    border: gray solid 1px;
+    width: 350px;
+
+}
+
+.t2 {
+    border: gray 1px solid;
+    width: 400px;
+    height: 340px;
+}
+
+#umiejętności {
+}
