@@ -1,37 +1,19 @@
-<svg height="500px" width="500px">
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 
-<polyline points="40, 180, 160, 60,300,180" stroke="black" /> <rectx="48" y="180" width="260px" height="150" stroke="black"
-
-<rect x="98" y="200" width="40px" height="40" stroke="black"
-
-x="210" y="200" width="40px" height="40" stroke="black"
-
-<rect x="150" y="270" width="40px" height="60" stroke="black"
-
-<line x1="150" yl="300" x2="160" y2="300" stroke="black" stroke
-
-width="3px" style="fill:none;" />
-
-<line x1="160" yl="300" x2="160" y2="310" stroke="black"
-
-width="3px"/>
-
-<head>
-
-chtml>
-
-</head>
-
-<body>
-
-fill="#cccccc"/>
-
-fill="#cccccc"/>
-
-<rect
-
-fill="#cccccc"/>
-
-fill="brown"/>
-
-</svg>
+nav ul li a::after{
+    content:"" ;
+    width: 0%;;
+    height: 2px;
+    background:linear-gradient(to right, #fb5283, #ff3527 ); ;
+    margin: auto;
+    display: block;
+ }
+ nav ul li a:hover:after{
+     
+    width: 100%;
+    transition: 0.5s;
+  }
