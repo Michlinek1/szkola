@@ -1,1 +1,21 @@
-selektor- okresla do jakich znacznikow jeyzka html odnosi sie dalcza czesc definicji stylu. selektorem moze byc dowolny znacznik html np. p,li,body.
+Język CSS oferuje nowe możliwości formatowania, które były niedostępne w HTML, np. dotyczące formatowania tekstu, formatowania tła, definiowania obramowania, dodatkowe właściwości definiowania list, pozycjonowania, zmianę wyglądu odsyłaczy. stosowanie filtrów.
+
+3.1. Wstawianie stylów
+
+Kaskadowe arkusze stylów definiują jedynie sposób formatowania elementów doku
+
+mentu HTML, ale ich nie tworzą. Elementy te muszą zostać zdefiniowane za pomocą
+
+znaczników w dokumencie HTML
+
+W podstawowej składni kaskadowych arkuszy stylów jest kilka stałych elementów:
+
+selektor (vlasciwode: wartosc;}
+
+⚫ selektor- określa, do jakich znaczników języka HTML odnosi się dalsza część definicji stylu. Selektorem może być dowolny znacznik HTML, np. p, li, body.
+
+⚫ właściwość określa, jaki atrybut znacznika będzie ustawiany, np. wielkość
+
+czcionki dla akapitu, tło dla znacznika body. • wartość określa konkretną wartość atrybutu, np. 12pt, blue.
+
+Dla jednego selektora można zdefiniować kilka atrybutów. W definicji stylu należy je oddzielić średnikami.
