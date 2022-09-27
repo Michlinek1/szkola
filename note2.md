@@ -8,3 +8,14 @@ SVG (ang. Scalable Vector Graphics) to uniwersalny format grafiki wektorowej (st
 Języki skryptowe to języki interpretowane, zaprojektowane z myślą o interakcji z użytkownikiem. Skrypty są wykonywane wewnątrz określonej aplikacji w odróżnieniu od programów nieskryptowych, które wykonują się niezależnie od innych aplikacji.
 
 Język skryptowy działający po stronie przeglądarki jest najważniejszym elementem dynamicznego HTML
+
+
+JavaScript jest obiektowym skryptowym językiem programowania nawiązującym do języka C. Jest językiem interpretowanym, co oznacza, że efekty jego użycia można zobaczyć bez konieczności kompilowania kodu. Potrzebna jest tylko przeglądarka internetowa, która obsluguje język JavaScript. Tworzone skrypty zapewniają interak tywność strony internetowej poprzez reagowanie na zdarzenia, budowanie elementów nawigacji oraz sprawdzanie poprawności formularzy
+
+Typowe zastosowania języka JavaScript to:
+
+modyfikowanie wyglądu bieżącego dokumentu, wyświetlanie prostych okien dialogowych,
+
+⚫ kontrola poprawności wypełnienia formularza, ⚫ manipulowanie informacją dotyczącą dary i czasu,
+
+⚫ lokalne generowanie dokumentów HTML
