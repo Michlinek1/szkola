@@ -7,6 +7,4 @@ SVG (ang. Scalable Vector Graphics) to uniwersalny format grafiki wektorowej (st
 
 Języki skryptowe to języki interpretowane, zaprojektowane z myślą o interakcji z użytkownikiem. Skrypty są wykonywane wewnątrz określonej aplikacji w odróżnieniu od programów nieskryptowych, które wykonują się niezależnie od innych aplikacji.
 
-Język skryptowy działający po stronie przeglądarki jest najważniejszym elementem
-
-dynamicznego HTML
+Język skryptowy działający po stronie przeglądarki jest najważniejszym elementem dynamicznego HTML
