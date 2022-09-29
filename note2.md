@@ -22,7 +22,7 @@ Typowe zastosowania języka JavaScript to:
 
 
 
-
+niggers niggers hate niggers
 ===============================================================================
 CSS-model blokowy
 hierarchicznie:
@@ -31,4 +31,3 @@ hierarchicznie:
 2.border - obramowanie wokół elementu, ma styl i kolor
 3.padding - odstęp między obramowaniem a zawartośćią elementu(margines wewnętrzny)
 4.content - zawartość elementu np. text czy obrazy
-powyższe atrybuty tworzą układ graficzny
