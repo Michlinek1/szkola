@@ -19,3 +19,15 @@ Typowe zastosowania języka JavaScript to:
 -kontrola poprawności wypełnienia formularza,
 -manipulowanie informacją dotyczącą dary i czasu,
 -lokalne generowanie dokumentów HTML
+
+
+
+
+===================================
+CSS-model blokowy
+hierarchicznie:
+
+1.Margin - margines wokół ramki(zewnetrzny)
+2.border - obramowanie wokół elementu, ma styl i kolor
+3.padding - odstęp między obramowaniem a zawartośćią elementu(margines wewnętrzny)
+4.content - zawartość elementu np. text czy obrazy
