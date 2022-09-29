@@ -38,4 +38,5 @@ Do zmiany szerokosci obramowania służy atrybut BORDER-WIDTH
 selektor(border-width:wartość/i)
 1 wartość oznacza tą samą szerokosc i wysokość
 2 wartośći oznaczają 2 osobne wartosci dla szerokosci i wysokośći(poziom,pion)
-mozna tez stylowac poszczególne krawędzie np. BORDER-BOTTOM-WIDTH:wartość lub np. BORDER-TOP-WIDTH:wartość
+mozna tez skalować poszczególne krawędzie np. BORDER-BOTTOM-WIDTH:wartość lub np. BORDER-TOP-WIDTH:wartość
+a takze stylowac obramowanie dzieki BORDER-STYLE:wartość lub BORDER-BOTTOM-STYLE czy też BORDER-TOP-STYLE
