@@ -23,7 +23,7 @@ Typowe zastosowania języka JavaScript to:
 
 
 
-===================================
+===============================================================================
 CSS-model blokowy
 hierarchicznie:
 
