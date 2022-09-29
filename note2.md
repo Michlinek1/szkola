@@ -31,4 +31,10 @@ hierarchicznie:
 2.border - obramowanie wokół elementu, ma styl i kolor
 3.padding - odstęp między obramowaniem a zawartośćią elementu(margines wewnętrzny)
 4.content - zawartość elementu np. text czy obrazy
+↑
 powyższe atrybuty tworzą układ graficzny
+
+Do zmiany szerokosci obramowania służy atrybut BORDER-WIDTH
+selektor(border-width:wartość/i)
+1 wartość oznacza tą samą szerokosc i wysokość
+2 wartośći oznaczają 2 osobne wartosci dla szerokosci i wysokośći
