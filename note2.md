@@ -40,3 +40,15 @@ selektor(border-width:wartość/i)
 2 wartośći oznaczają 2 osobne wartosci dla szerokosci i wysokośći(poziom,pion)
 mozna tez skalować poszczególne krawędzie np. BORDER-BOTTOM-WIDTH:wartość lub np. BORDER-TOP-WIDTH:wartość
 a takze stylowac obramowanie dzieki BORDER-STYLE:wartość lub BORDER-BOTTOM-STYLE czy też BORDER-TOP-STYLE
+przykładowe style:
+
+border-style: none;
+border-style: hidden;
+border-style: dotted;
+border-style: dashed;
+border-style: solid;
+border-style: double;
+border-style: groove;
+border-style: ridge;
+border-style: inset;
+border-style: outset;
