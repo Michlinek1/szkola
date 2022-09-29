@@ -1,0 +1,1 @@
+{"resolution":2,"crosshairSho":"2","sensitivityX":1.6,"sensitivityY":1.1,"aimSensitivityX":1.5,"fov":105,"weaponBob":3,"weaponLean":6,"weaponRot":2,"weaponOffX":0.7,"weaponOffY":3,"weapSwapY":0.8,"controls":{"toggleSets":[-1,-1,-1,-1,-1,-1]}}
