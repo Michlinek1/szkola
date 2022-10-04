@@ -1,12 +1,5 @@
-Za pomocą znaczników <div> <header> <nav> <section> i <footer> mozemy grupować 
-
-
-
-
-
-
-
-
-
-
-https://mega.nz/file/T0dGFRTD#dEZuBSzMYlgd2AFrNDy2WaZo7j9IFesKe4IK7Wes8jQ
+Za pomocą znaczników <div> <header> <nav> <
+w praktyce najczesciej mamy do czynienia z szablonami typu:
+  nagłówek, jedna kolumna, stopka
+  naglowek, dwie kolumny, stopka
+  naglowek, trzy kolumny, stopka
