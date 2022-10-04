@@ -1,4 +1,8 @@
-Za pomocą znaczników <div> <header> <nav> <section> i <footer> mozemy grupować w bloki elenebty strony i formatowac je za pomocą stylów
+Za pomocą znaczników <div> <header> <nav> <section> i <footer> mozemy grupować 
+w praktyce mamy do czynienia z szablonami typu:
+  naglowek, jedna kolumna, stopka
+  naglowek, dwie kolumna, stopka
+  naglowek, trzy kolumna, stopka
 
 
 
